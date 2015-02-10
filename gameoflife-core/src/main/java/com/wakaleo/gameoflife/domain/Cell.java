@@ -1,5 +1,9 @@
 package com.wakaleo.gameoflife.domain;
 
+/***
+ * Cell in Game of Life
+ * @author marcel
+ */
 public enum Cell {
     LIVE_CELL("*"), DEAD_CELL(".");
 
