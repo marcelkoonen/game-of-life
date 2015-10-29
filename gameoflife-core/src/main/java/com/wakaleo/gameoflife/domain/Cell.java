@@ -5,7 +5,9 @@ package com.wakaleo.gameoflife.domain;
  * @author marcel
  */
 public enum Cell {
-    LIVE_CELL("*"), DEAD_CELL(".");
+    //LIVE_CELL("*"), DEAD_CELL(".");
+    // Introduction of a failure! '+' instead of '*'
+    LIVE_CELL("+"), DEAD_CELL(".");
 
     private String symbol;
 
